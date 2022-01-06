@@ -32,7 +32,7 @@ while i3 < int(len(pins)):
 
     for session in sessions:
         cen = sessions[i]
-        if(cen["min_age_limit"] == 18 and cen["available_capacity_dose2"] != 0 and cen["vaccine"] == "COVISHIELD" and cen["fee_type"] == "Free"):
+        if(cen["min_age_limit"] == 18 and cen["vaccine"] == "COVISHIELD" and cen["fee_type"] == "Free"):
             time = now.strftime("%H:%M:%S")
             f = "\n---------------------------------------------------------\n" + str(time) + ": "+ "Name: " + cen["name"] + "\nPincode: " + str(cen["pincode"]) + "\n---------------------------------------------------------"
             print(f)
