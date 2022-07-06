@@ -1,3 +1,6 @@
+# Made by Viraj Khanna
+# Copyright ©️ 2022-Present Viraj Khanna
+
 import json
 import requests
 from time import sleep
